@@ -9,4 +9,4 @@ All Perl, Python, R, and Bash Shell scripts were used to eQTLs and RNA-m6A QTLs 
                                            
 3. Merge all files from each sample into one file to satisfy the input format of `QTLtools cis` and `QTLtools trans` by `3a_merge.peaks.pl` or `3b_merge.gene.pl`. Please ensure that the colomn orders of the GFT file and the merged file are the same. More details please see `perl xxx.pl -help`.  
       
-      
+4. Further filter m6A-epaks or genes by `4a_keptRegions.peaks.R` or `4b_keptRegions.gene.R`. We can remove peaks or genes with low reads desnity or low variance.  More details please see code of `4a_keptRegions.peaks.R` or `4b_keptRegions.gene.R`
