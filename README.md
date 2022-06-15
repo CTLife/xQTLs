@@ -11,6 +11,6 @@ All Perl, Python, R, and Bash Shell scripts were used to eQTLs and RNA-m6A QTLs 
       
 4. Further filter m6A-epaks or genes by `4a_keptRegions.peaks.R` or `4b_keptRegions.gene.R`. We can remove peaks or genes with low reads desnity or low variance.  More details please see code of `4a_keptRegions.peaks.R` or `4b_keptRegions.gene.R`
      
-5. PCA for genotype by `5_QTLtools_pca.SNP.sh`. PCA and PEER analysis for phenotype please see the codes under folder `covariates`.
+5. PCA for genotype by `5_QTLtools_pca.SNP.sh`. PCA and PEER factor analysis for phenotype please see the codes under folder `covariates`.
 
 6-8, Identify cis- or trans-QTLs by invoking `QTLtools cis` or `QTLtools trans`. 
