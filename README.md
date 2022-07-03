@@ -13,4 +13,4 @@ All Perl, Python, R, and Bash Shell scripts were used to eQTLs and RNA-m6A QTLs 
      
 5. PCA for genotype by `5_QTLtools_pca.SNP.sh`. PCA and PEER factor analysis for phenotype please see the codes under folder `covariates`.
 
-6-8. Identify cis- or trans-QTLs by invoking `QTLtools cis` or `QTLtools trans`. 
+6-8. Identify cis- or trans-QTLs by invoking `QTLtools cis` or `QTLtools trans`.    
