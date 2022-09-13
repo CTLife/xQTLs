@@ -137,7 +137,7 @@ print("\n\n##$firstLine2##\n\n");
 ($firstLine2 =~ m/$firstLine/) or die  "\n\nError-1:#$firstLine#$firstLine2#\n\n";
 print("\n\n##phenotype matrix:$firstLine##\n##knownFactors matrix:$firstLine2##\n\n");
 
-if ( !( -e "$known_g.nohead" ) )  { system("cp $known_g  $known_g.nohead"); } 
+system("cp $known_g  $known_g.nohead"); 
 system( "sed   -i '1d'   $known_g.nohead"  );
 system( "head   -n 1     $known_g   > $known_g.onlyhead"  );
 
